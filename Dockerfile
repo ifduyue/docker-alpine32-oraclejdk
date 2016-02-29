@@ -1,8 +1,8 @@
 FROM duyue/alpine32-glibc
 
 ENV JAVA_VERSION=8 \
-    JAVA_UPDATE=72 \
-    JAVA_BUILD=15 \
+    JAVA_UPDATE=74 \
+    JAVA_BUILD=02 \
     JAVA_HOME="/usr/lib/jvm/default-jvm"
 
 RUN apk add --update wget ca-certificates && \
